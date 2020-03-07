@@ -4,7 +4,7 @@ and adds a GUI on top of it.
 
 # Building the project
 
-##Requirements
+## Requirements
 - CMake 3.15 or newer
 - Make 
 - GTKmm 3 library
