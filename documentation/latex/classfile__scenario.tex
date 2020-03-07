@@ -1,0 +1,142 @@
+\hypertarget{classfile__scenario}{}\doxysection{file\+\_\+scenario Class Reference}
+\label{classfile__scenario}\index{file\_scenario@{file\_scenario}}
+
+
+{\ttfamily \#include $<$scenario.\+h$>$}
+
+
+
+Inheritance diagram for file\+\_\+scenario\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=159pt]{classfile__scenario__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for file\+\_\+scenario\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=159pt]{classfile__scenario__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::array$<$ float, 2 $>$ \mbox{\hyperlink{classfile__scenario_a48dd30a0a544f60513386911d437404c}{get\+\_\+origin}} () const final
+\item 
+std\+::array$<$ float, 2 $>$ \mbox{\hyperlink{classfile__scenario_ae4977b8711cdd2897a1cdd2504ae8d25}{get\+\_\+size}} () const final
+\item 
+float \mbox{\hyperlink{classfile__scenario_a33b6535b3adb8684cf191fe0914ae714}{get\+\_\+bathymetry}} (const float \&x, const float \&y) const final
+\item 
+float \mbox{\hyperlink{classfile__scenario_a58125bb071d6bd936d2432b12105a2fe}{get\+\_\+height}} (const float \&x, const float \&y) const final
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classfile__scenario}{file\+\_\+scenario}} \mbox{\hyperlink{classfile__scenario_a2f5802b72ea1c0ef5ef3f5a0fffa9606}{create}} (const std\+::string \&bathy\+\_\+name, const std\+::string \&displ\+\_\+name)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Loads scenario data from a bathymetry and a displacement file. 
+
+Definition at line 44 of file scenario.\+h.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classfile__scenario_a2f5802b72ea1c0ef5ef3f5a0fffa9606}\label{classfile__scenario_a2f5802b72ea1c0ef5ef3f5a0fffa9606}} 
+\index{file\_scenario@{file\_scenario}!create@{create}}
+\index{create@{create}!file\_scenario@{file\_scenario}}
+\doxysubsubsection{\texorpdfstring{create()}{create()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classfile__scenario}{file\+\_\+scenario}} file\+\_\+scenario\+::create (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{bathy\+\_\+name,  }\item[{const std\+::string \&}]{displ\+\_\+name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Extracts data from bathymetry and displacement files to create a scenario 
+\begin{DoxyParams}{Parameters}
+{\em bathy\+\_\+name} & Name of bathymetry file \\
+\hline
+{\em displ\+\_\+name} & Name of displacement file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Scenario 
+\end{DoxyReturn}
+
+
+Definition at line 9 of file scenario.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfile__scenario_a2f5802b72ea1c0ef5ef3f5a0fffa9606_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classfile__scenario_a33b6535b3adb8684cf191fe0914ae714}\label{classfile__scenario_a33b6535b3adb8684cf191fe0914ae714}} 
+\index{file\_scenario@{file\_scenario}!get\_bathymetry@{get\_bathymetry}}
+\index{get\_bathymetry@{get\_bathymetry}!file\_scenario@{file\_scenario}}
+\doxysubsubsection{\texorpdfstring{get\_bathymetry()}{get\_bathymetry()}}
+{\footnotesize\ttfamily float file\+\_\+scenario\+::get\+\_\+bathymetry (\begin{DoxyParamCaption}\item[{const float \&}]{x,  }\item[{const float \&}]{y }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [final]}, {\ttfamily [virtual]}}
+
+See \mbox{\hyperlink{classscenario_a83c4b0c46a701e40b461438ccc2277e4}{scenario\+::get\+\_\+bathymetry}}. 
+
+Implements \mbox{\hyperlink{classscenario_a83c4b0c46a701e40b461438ccc2277e4}{scenario}}.
+
+
+
+Definition at line 86 of file scenario.\+cpp.
+
+\mbox{\Hypertarget{classfile__scenario_a58125bb071d6bd936d2432b12105a2fe}\label{classfile__scenario_a58125bb071d6bd936d2432b12105a2fe}} 
+\index{file\_scenario@{file\_scenario}!get\_height@{get\_height}}
+\index{get\_height@{get\_height}!file\_scenario@{file\_scenario}}
+\doxysubsubsection{\texorpdfstring{get\_height()}{get\_height()}}
+{\footnotesize\ttfamily float file\+\_\+scenario\+::get\+\_\+height (\begin{DoxyParamCaption}\item[{const float \&}]{x,  }\item[{const float \&}]{y }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [final]}, {\ttfamily [virtual]}}
+
+See \mbox{\hyperlink{classscenario_a68bd8a0313890e99915cd47737356d97}{scenario\+::get\+\_\+height}}. 
+
+Implements \mbox{\hyperlink{classscenario_a68bd8a0313890e99915cd47737356d97}{scenario}}.
+
+
+
+Definition at line 97 of file scenario.\+cpp.
+
+\mbox{\Hypertarget{classfile__scenario_a48dd30a0a544f60513386911d437404c}\label{classfile__scenario_a48dd30a0a544f60513386911d437404c}} 
+\index{file\_scenario@{file\_scenario}!get\_origin@{get\_origin}}
+\index{get\_origin@{get\_origin}!file\_scenario@{file\_scenario}}
+\doxysubsubsection{\texorpdfstring{get\_origin()}{get\_origin()}}
+{\footnotesize\ttfamily std\+::array$<$ float, 2 $>$ file\+\_\+scenario\+::get\+\_\+origin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [final]}, {\ttfamily [virtual]}}
+
+See \mbox{\hyperlink{classscenario_a5d2605f3dd97b5d41d85f7b9915e90cb}{scenario\+::get\+\_\+origin}}. 
+
+Implements \mbox{\hyperlink{classscenario_a5d2605f3dd97b5d41d85f7b9915e90cb}{scenario}}.
+
+
+
+Definition at line 82 of file scenario.\+cpp.
+
+\mbox{\Hypertarget{classfile__scenario_ae4977b8711cdd2897a1cdd2504ae8d25}\label{classfile__scenario_ae4977b8711cdd2897a1cdd2504ae8d25}} 
+\index{file\_scenario@{file\_scenario}!get\_size@{get\_size}}
+\index{get\_size@{get\_size}!file\_scenario@{file\_scenario}}
+\doxysubsubsection{\texorpdfstring{get\_size()}{get\_size()}}
+{\footnotesize\ttfamily std\+::array$<$ float, 2 $>$ file\+\_\+scenario\+::get\+\_\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [final]}, {\ttfamily [virtual]}}
+
+See \mbox{\hyperlink{classscenario_acd3cc515aa9bc1d554bcfbca1779452a}{scenario\+::get\+\_\+size}}. 
+
+Implements \mbox{\hyperlink{classscenario_acd3cc515aa9bc1d554bcfbca1779452a}{scenario}}.
+
+
+
+Definition at line 84 of file scenario.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{scenario_8h}{scenario.\+h}}\item 
+\mbox{\hyperlink{scenario_8cpp}{scenario.\+cpp}}\end{DoxyCompactItemize}

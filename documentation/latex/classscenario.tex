@@ -1,0 +1,151 @@
+\hypertarget{classscenario}{}\doxysection{scenario Class Reference}
+\label{classscenario}\index{scenario@{scenario}}
+
+
+{\ttfamily \#include $<$scenario.\+h$>$}
+
+
+
+Inheritance diagram for scenario\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenario__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{classscenario_a3a664e767a269461a140d99755a3e8e4}{$\sim$scenario}} ()=default
+\item 
+virtual std\+::array$<$ float, 2 $>$ \mbox{\hyperlink{classscenario_a5d2605f3dd97b5d41d85f7b9915e90cb}{get\+\_\+origin}} () const =0
+\item 
+virtual std\+::array$<$ float, 2 $>$ \mbox{\hyperlink{classscenario_acd3cc515aa9bc1d554bcfbca1779452a}{get\+\_\+size}} () const =0
+\item 
+virtual float \mbox{\hyperlink{classscenario_a83c4b0c46a701e40b461438ccc2277e4}{get\+\_\+bathymetry}} (const float \&x, const float \&y) const =0
+\item 
+virtual float \mbox{\hyperlink{classscenario_a68bd8a0313890e99915cd47737356d97}{get\+\_\+height}} (const float \&x, const float \&y) const =0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides initial bathymetry and water height data for simulations. This is an abstract class. It only declares the functions a scenario class must have. 
+
+Definition at line 10 of file scenario.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classscenario_a3a664e767a269461a140d99755a3e8e4}\label{classscenario_a3a664e767a269461a140d99755a3e8e4}} 
+\index{scenario@{scenario}!````~scenario@{$\sim$scenario}}
+\index{````~scenario@{$\sim$scenario}!scenario@{scenario}}
+\doxysubsubsection{\texorpdfstring{$\sim$scenario()}{~scenario()}}
+{\footnotesize\ttfamily virtual scenario\+::$\sim$scenario (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classscenario_a83c4b0c46a701e40b461438ccc2277e4}\label{classscenario_a83c4b0c46a701e40b461438ccc2277e4}} 
+\index{scenario@{scenario}!get\_bathymetry@{get\_bathymetry}}
+\index{get\_bathymetry@{get\_bathymetry}!scenario@{scenario}}
+\doxysubsubsection{\texorpdfstring{get\_bathymetry()}{get\_bathymetry()}}
+{\footnotesize\ttfamily virtual float scenario\+::get\+\_\+bathymetry (\begin{DoxyParamCaption}\item[{const float \&}]{x,  }\item[{const float \&}]{y }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Getter for scenario bathymetry 
+\begin{DoxyParams}{Parameters}
+{\em x} & Position in x direction \\
+\hline
+{\em y} & Position in y direction \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Bathymetry at position (x, y) 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classradial__dambreak__obstacle__scenario_a172426e0deacefce4ae528323f752721}{radial\+\_\+dambreak\+\_\+obstacle\+\_\+scenario}}, \mbox{\hyperlink{classartificial__tsunami__scenario_abededb1035ceac02c3fedfbcb28ec998}{artificial\+\_\+tsunami\+\_\+scenario}}, and \mbox{\hyperlink{classfile__scenario_a33b6535b3adb8684cf191fe0914ae714}{file\+\_\+scenario}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenario_a83c4b0c46a701e40b461438ccc2277e4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classscenario_a68bd8a0313890e99915cd47737356d97}\label{classscenario_a68bd8a0313890e99915cd47737356d97}} 
+\index{scenario@{scenario}!get\_height@{get\_height}}
+\index{get\_height@{get\_height}!scenario@{scenario}}
+\doxysubsubsection{\texorpdfstring{get\_height()}{get\_height()}}
+{\footnotesize\ttfamily virtual float scenario\+::get\+\_\+height (\begin{DoxyParamCaption}\item[{const float \&}]{x,  }\item[{const float \&}]{y }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Getter for scenario water height 
+\begin{DoxyParams}{Parameters}
+{\em x} & Position in x direction \\
+\hline
+{\em y} & Position in y direction \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Initial water height at position (x, y) 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classradial__dambreak__obstacle__scenario_a3327914d1b8a24b6c605c7a0e80597ce}{radial\+\_\+dambreak\+\_\+obstacle\+\_\+scenario}}, \mbox{\hyperlink{classartificial__tsunami__scenario_a6f0ed99f129e9b436582dc47b0b63cb4}{artificial\+\_\+tsunami\+\_\+scenario}}, and \mbox{\hyperlink{classfile__scenario_a58125bb071d6bd936d2432b12105a2fe}{file\+\_\+scenario}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenario_a68bd8a0313890e99915cd47737356d97_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classscenario_a5d2605f3dd97b5d41d85f7b9915e90cb}\label{classscenario_a5d2605f3dd97b5d41d85f7b9915e90cb}} 
+\index{scenario@{scenario}!get\_origin@{get\_origin}}
+\index{get\_origin@{get\_origin}!scenario@{scenario}}
+\doxysubsubsection{\texorpdfstring{get\_origin()}{get\_origin()}}
+{\footnotesize\ttfamily virtual std\+::array$<$float, 2$>$ scenario\+::get\+\_\+origin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Getter for scenario origin \begin{DoxyReturn}{Returns}
+Origin (i.\+e. bottom left) position of scenario 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classradial__dambreak__obstacle__scenario_aa14672ef46fc31fdd93266f908897c05}{radial\+\_\+dambreak\+\_\+obstacle\+\_\+scenario}}, \mbox{\hyperlink{classartificial__tsunami__scenario_acd5cc190337be98036959de845a52b8d}{artificial\+\_\+tsunami\+\_\+scenario}}, and \mbox{\hyperlink{classfile__scenario_a48dd30a0a544f60513386911d437404c}{file\+\_\+scenario}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenario_a5d2605f3dd97b5d41d85f7b9915e90cb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classscenario_acd3cc515aa9bc1d554bcfbca1779452a}\label{classscenario_acd3cc515aa9bc1d554bcfbca1779452a}} 
+\index{scenario@{scenario}!get\_size@{get\_size}}
+\index{get\_size@{get\_size}!scenario@{scenario}}
+\doxysubsubsection{\texorpdfstring{get\_size()}{get\_size()}}
+{\footnotesize\ttfamily virtual std\+::array$<$float, 2$>$ scenario\+::get\+\_\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Getter for scenrio domain size \begin{DoxyReturn}{Returns}
+Size of the scenario domain in x and y direction 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classradial__dambreak__obstacle__scenario_aad1b47a1bd26724069c5de725d43f0e3}{radial\+\_\+dambreak\+\_\+obstacle\+\_\+scenario}}, \mbox{\hyperlink{classartificial__tsunami__scenario_aa57dfb60d5d426f5dba587eecb5a6a68}{artificial\+\_\+tsunami\+\_\+scenario}}, and \mbox{\hyperlink{classfile__scenario_ae4977b8711cdd2897a1cdd2504ae8d25}{file\+\_\+scenario}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenario_acd3cc515aa9bc1d554bcfbca1779452a_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{scenario_8h}{scenario.\+h}}\end{DoxyCompactItemize}

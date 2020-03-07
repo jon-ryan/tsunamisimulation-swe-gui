@@ -1,0 +1,1489 @@
+\hypertarget{class_gui}{}\doxysection{Gui Class Reference}
+\label{class_gui}\index{Gui@{Gui}}
+
+
+{\ttfamily \#include $<$gui.\+h$>$}
+
+
+
+Inheritance diagram for Gui\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=159pt]{class_gui__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Gui\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=235pt]{class_gui__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_gui_aec6dd1cb98006ef4a11e775c535be8d5}{Gui}} (Base\+Object\+Type $\ast$cobject, const Glib\+::\+Ref\+Ptr$<$ Gtk\+::\+Builder $>$ \&ref\+Builder)
+\item 
+virtual \mbox{\hyperlink{class_gui_a4fd8485d226f9b8a2ac2d81d7f0f3598}{$\sim$\+Gui}} ()
+\item 
+void \mbox{\hyperlink{class_gui_a14bcfe27a76487edb9346e23553f9e76}{update\+\_\+progress}} (float \mbox{\hyperlink{class_gui_ab3596593a568d899f354f71c44ba5356}{progress}}, int \mbox{\hyperlink{class_gui_a383dc0e3a27578344edc2b43bf0b2a7b}{time\+\_\+remaining}})
+\item 
+void \mbox{\hyperlink{class_gui_ae8faae704a0adc67177a9cd61bbacfb3}{show\+\_\+error\+\_\+page}} (std\+::string error)
+\item 
+bool \mbox{\hyperlink{class_gui_adb717f499b83aabb84ac1bf68eaf6d72}{was\+\_\+canceled}} ()
+\item 
+void \mbox{\hyperlink{class_gui_acf26f6708a3070162aded0104d801ebd}{notify\+\_\+progress\+\_\+bar\+\_\+update}} ()
+\item 
+void \mbox{\hyperlink{class_gui_a2f75e1e51332b6f5b603c09685f265ef}{update\+\_\+widgets}} ()
+\item 
+void \mbox{\hyperlink{class_gui_a87f6e39dc28bc04b2a431551339fe4ce}{notify\+\_\+page\+\_\+change\+\_\+to\+\_\+result}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_gui_a5ce4bc4f1f654919abe6da5db63bd5b4}{on\+\_\+close\+\_\+application}} ()
+\item 
+void \mbox{\hyperlink{class_gui_a6f592ef45f62157f20e2ed28829683b6}{on\+\_\+return\+\_\+to\+\_\+main\+\_\+menu}} ()
+\item 
+void \mbox{\hyperlink{class_gui_a99bd8e1d1028f5ecd3192c0cf98f2c81}{on\+\_\+page\+\_\+0\+\_\+start\+\_\+new\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_gui_ae637b42ffefc5295292fddb4020915a5}{on\+\_\+page\+\_\+0\+\_\+load\+\_\+checkpoint\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_gui_a25acccc5bc4a66a8cef614bf5ad5050e}{on\+\_\+page\+\_\+0\+\_\+how\+\_\+to\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_gui_a401e4defba41bd7ec6e01fd3d05593cd}{on\+\_\+page\+\_\+0\+\_\+about\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_gui_ae4a23ca88be4fa14e9fb7f87fa5361ca}{on\+\_\+page\+\_\+1\+\_\+reveal\+\_\+result\+\_\+output}} ()
+\item 
+void \mbox{\hyperlink{class_gui_a4289738c77733dcbdb0769be3624b1ec}{on\+\_\+page\+\_\+1\+\_\+reveal\+\_\+scenario\+\_\+input}} ()
+\item 
+void \mbox{\hyperlink{class_gui_ac1cd401b04bce22928845ab1c83b54e5}{on\+\_\+page\+\_\+1\+\_\+submit\+\_\+button\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_gui_a768f9fba8d4861cfc6f8af6614498d06}{on\+\_\+page\+\_\+2\+\_\+submit\+\_\+button\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_gui_a1a6d30c0de7f5a55822b7d5a318922a8}{on\+\_\+page\+\_\+3\+\_\+button\+\_\+cancel\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_gui_a83cdfcfe3485b2c28e2e5140bfae3989}{page\+\_\+3\+\_\+animation\+\_\+worker}} ()
+\item 
+void \mbox{\hyperlink{class_gui_a5ac5507e132f21e0819f8452a2dcf3dd}{page\+\_\+3\+\_\+handler}} ()
+\item 
+void \mbox{\hyperlink{class_gui_abae61702b267f53557c3f1f44cbb84ce}{on\+\_\+page\+\_\+4\+\_\+open\+\_\+location\+\_\+button\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_gui_ace91713e2f7f7c54e522bc5e25e1d62a}{on\+\_\+page\+\_\+4\+\_\+open\+\_\+paraview\+\_\+button\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_gui_ae25fb8cd2f3f6bcbf4c23fe140f3952a}{on\+\_\+notification\+\_\+from\+\_\+animation\+\_\+worker\+\_\+thread}} ()
+\item 
+void \mbox{\hyperlink{class_gui_a465cd294221a87f6643d9183606fe012}{on\+\_\+notification\+\_\+to\+\_\+change\+\_\+to\+\_\+result\+\_\+page}} ()
+\item 
+void \mbox{\hyperlink{class_gui_af7bc57309d69fb54d8067b4121b23395}{on\+\_\+notification\+\_\+to\+\_\+set\+\_\+result\+\_\+duration}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_gui_a66f152e6bd0f389d1808a1127b7a4c1e}{directory}} = \char`\"{}\char`\"{}
+\item 
+std\+::string \mbox{\hyperlink{class_gui_afc8d9877f24c4af4f17b45fc6ea4b339}{filename}} = \char`\"{}\char`\"{}
+\item 
+int \mbox{\hyperlink{class_gui_a1c4f367d75d65bcac04014eb99e65f38}{scenario\+\_\+id}} = 0
+\item 
+bool \mbox{\hyperlink{class_gui_ac3073b1f26e15d59b4a3989bcaadad60}{uses\+\_\+walls}} = false
+\item 
+bool \mbox{\hyperlink{class_gui_a87fe8de9737f163d6b135a5634599353}{generate\+\_\+output}} = true
+\item 
+float \mbox{\hyperlink{class_gui_ab3596593a568d899f354f71c44ba5356}{progress}} = 0
+\item 
+int \mbox{\hyperlink{class_gui_a383dc0e3a27578344edc2b43bf0b2a7b}{time\+\_\+remaining}} = 0
+\item 
+time\+\_\+t \mbox{\hyperlink{class_gui_a6f6b46ae34278fd0a74044af63d315a2}{time\+\_\+start}}
+\item 
+time\+\_\+t \mbox{\hyperlink{class_gui_a8729b78f8179aa88b32aa219153b587e}{time\+\_\+end}}
+\item 
+int \mbox{\hyperlink{class_gui_a192e973ed536af837f9b4957b8732ed1}{diff\+\_\+seconds}}
+\item 
+Glib\+::\+Dispatcher \mbox{\hyperlink{class_gui_afc19cf4f6e3ff387adada3c95d8bf5f0}{dispatcher\+\_\+progressbar\+\_\+update}}
+\item 
+Glib\+::\+Dispatcher \mbox{\hyperlink{class_gui_ae611d67f36fd2304da4e7310c008fb36}{dispatcher\+\_\+show\+\_\+result\+\_\+page}}
+\item 
+Glib\+::\+Dispatcher \mbox{\hyperlink{class_gui_a486e96374f78911599091c48eade5702}{dispatcher\+\_\+set\+\_\+result\+\_\+duration}}
+\item 
+std\+::mutex \mbox{\hyperlink{class_gui_a7d33da7cacbc404dabbc69d92e4a04ce}{progress\+\_\+bat\+\_\+mtx}}
+\item 
+std\+::string \mbox{\hyperlink{class_gui_a21fe326f7e9064469ce691f5136b2d84}{worker\+\_\+message}}
+\item 
+double \mbox{\hyperlink{class_gui_a71f85c86c2c157f7aa4d2b97ccee44a7}{worker\+\_\+target\+\_\+fraction}}
+\item 
+double \mbox{\hyperlink{class_gui_a53ad3ec550cae503d075f344e78f8311}{worker\+\_\+actual\+\_\+fraction}}
+\item 
+int \mbox{\hyperlink{class_gui_aa1d6950bb0c6fbc010a840d6dfae4395}{worker\+\_\+time\+\_\+remaining}}
+\item 
+double \mbox{\hyperlink{class_gui_ad5c628f41b5e923c2645c334139918f2}{simulation\+\_\+fraction}}
+\item 
+int \mbox{\hyperlink{class_gui_abe324036c55710c2fc3f7acdcd824945}{simulation\+\_\+time\+\_\+remaining}}
+\item 
+double \mbox{\hyperlink{class_gui_a9d2b110430a7b8399e49875322b2e3ee}{main\+\_\+thread\+\_\+fraction}}
+\item 
+std\+::string \mbox{\hyperlink{class_gui_afeed20b2b4a0ac7943e39fca3ef25370}{main\+\_\+thread\+\_\+message}}
+\item 
+std\+::mutex \mbox{\hyperlink{class_gui_a005c3be1b872a8bd8751b9c41f5448a0}{result\+\_\+duration\+\_\+mtx}}
+\item 
+std\+::string \mbox{\hyperlink{class_gui_a64a390321be463827d3e054fd5b9c4ef}{result\+\_\+duration\+\_\+string}}
+\item 
+\mbox{\hyperlink{classscenario}{scenario}} $\ast$ \mbox{\hyperlink{class_gui_a8349a0ad98099c9518b2b951659bdbe4}{scen}}
+\item 
+Glib\+::\+Ref\+Ptr$<$ Gtk\+::\+Builder $>$ \mbox{\hyperlink{class_gui_a9ec8a91cc6b9ec66fbf103237d7036d4}{ui}}
+\item 
+Gtk\+::\+Window $\ast$ \mbox{\hyperlink{class_gui_a67b0d1c70e972abc8c14aa7d22ac9719}{main\+\_\+window}}
+\item 
+Gtk\+::\+Stack $\ast$ \mbox{\hyperlink{class_gui_aab149a452aa81734d3e5afacd7afc3a7}{gui\+\_\+stack}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_a64404f4b1933e26c463880b0a2243d5f}{page\+\_\+0\+\_\+button\+\_\+start\+\_\+new}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_a53310f1cb886021d99a50110d0c6046f}{page\+\_\+0\+\_\+button\+\_\+load\+\_\+checkpoint}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_a6e62314006570601caab91acb084b60a}{page\+\_\+0\+\_\+button\+\_\+how\+\_\+to}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_a7f0b0aecaab14f75138b0a40a5930247}{page\+\_\+0\+\_\+button\+\_\+about}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_a7c80db950d68dfd5575c50e1616fc40c}{page\+\_\+0\+\_\+button\+\_\+quit}}
+\item 
+Gtk\+::\+Spin\+Button $\ast$ \mbox{\hyperlink{class_gui_a0791266d1f93a56845ecaccf8b83f109}{page\+\_\+1\+\_\+spin\+\_\+button\+\_\+x\+\_\+dim}}
+\item 
+Gtk\+::\+Spin\+Button $\ast$ \mbox{\hyperlink{class_gui_ac6d9fc2abe9c7d46cf0465928e337af6}{page\+\_\+1\+\_\+spin\+\_\+button\+\_\+y\+\_\+dim}}
+\item 
+Gtk\+::\+Spin\+Button $\ast$ \mbox{\hyperlink{class_gui_af4e54c332491356138220670d0cdd1b4}{page\+\_\+1\+\_\+spin\+\_\+button\+\_\+sim\+\_\+time}}
+\item 
+Gtk\+::\+Spin\+Button $\ast$ \mbox{\hyperlink{class_gui_a93ad87ac367e6da6dd5d6159c3a5d14c}{page\+\_\+1\+\_\+spin\+\_\+button\+\_\+num\+\_\+time\+\_\+steps}}
+\item 
+Gtk\+::\+Spin\+Button $\ast$ \mbox{\hyperlink{class_gui_a6939b444eb24c0581520c7bf31824f82}{page\+\_\+1\+\_\+spin\+\_\+button\+\_\+num\+\_\+threads}}
+\item 
+Gtk\+::\+Combo\+Box\+Text $\ast$ \mbox{\hyperlink{class_gui_af27a80d09558383b377604884c4904cb}{page\+\_\+1\+\_\+combobox\+\_\+output}}
+\item 
+Gtk\+::\+Spin\+Button $\ast$ \mbox{\hyperlink{class_gui_afffa1e69ca9500638200e45fa854f2d1}{page\+\_\+1\+\_\+spin\+\_\+button\+\_\+coarseness\+\_\+factor}}
+\item 
+Gtk\+::\+Combo\+Box\+Text $\ast$ \mbox{\hyperlink{class_gui_a62291c7ef516491b4ccc1b029661bff5}{page\+\_\+1\+\_\+combobox\+\_\+boundary}}
+\item 
+Gtk\+::\+Combo\+Box\+Text $\ast$ \mbox{\hyperlink{class_gui_afa1e08a50cbd4dfc044cb0d92f85ec18}{page\+\_\+1\+\_\+combobox\+\_\+scenario}}
+\item 
+Gtk\+::\+Revealer $\ast$ \mbox{\hyperlink{class_gui_a6d63282fb2e651537b08ad9f97b4405b}{page\+\_\+1\+\_\+revealer\+\_\+scenario\+\_\+input}}
+\item 
+Gtk\+::\+Revealer $\ast$ \mbox{\hyperlink{class_gui_ad633ab9095b1b790818358b2f8a48fbd}{page\+\_\+1\+\_\+revealer\+\_\+result\+\_\+output}}
+\item 
+Gtk\+::\+File\+Chooser $\ast$ \mbox{\hyperlink{class_gui_a3fe52e4ee338191a030bba0db19a326b}{page\+\_\+1\+\_\+file\+\_\+chooser\+\_\+bathymetry}}
+\item 
+Gtk\+::\+File\+Chooser $\ast$ \mbox{\hyperlink{class_gui_a286ac8f339169cec8a3bb891b6368c49}{page\+\_\+1\+\_\+file\+\_\+chooser\+\_\+displacement}}
+\item 
+Gtk\+::\+File\+Chooser $\ast$ \mbox{\hyperlink{class_gui_a4b15fe3e264086a20ade1b79c7532417}{page\+\_\+1\+\_\+file\+\_\+chooser\+\_\+output\+\_\+directory}}
+\item 
+Gtk\+::\+Entry $\ast$ \mbox{\hyperlink{class_gui_ade509ca998bdc74412126d3a87555400}{page\+\_\+1\+\_\+entry\+\_\+output\+\_\+file\+\_\+name}}
+\item 
+Gtk\+::\+Label $\ast$ \mbox{\hyperlink{class_gui_ada83d4bc3b7452489ba28a436b3744f7}{page\+\_\+1\+\_\+label\+\_\+error}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_a386ce2dfa1358431a683cc08f42927e6}{page\+\_\+1\+\_\+button\+\_\+submit}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_a42f46ea52188dd4a06e641fd257dc10f}{page\+\_\+1\+\_\+button\+\_\+back}}
+\item 
+Gtk\+::\+File\+Chooser $\ast$ \mbox{\hyperlink{class_gui_a5cd715ddb6211b6a36c602d376c268f4}{page\+\_\+2\+\_\+file\+\_\+chooser\+\_\+load\+\_\+checkpoint}}
+\item 
+Gtk\+::\+Label $\ast$ \mbox{\hyperlink{class_gui_a0899cd022bf880b7313c38652544dee2}{page\+\_\+2\+\_\+label\+\_\+error}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_a58f2d93b5f5e3a679b73eaf9d5ed3da7}{page\+\_\+2\+\_\+button\+\_\+submit}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_a6ece09679d2d69c062b2364b394a5e7e}{page\+\_\+2\+\_\+button\+\_\+back}}
+\item 
+Gtk\+::\+File\+Chooser $\ast$ \mbox{\hyperlink{class_gui_a2a7eb9feeaa6c260f43d50fe4cefa8fb}{page\+\_\+2\+\_\+file\+\_\+chooser\+\_\+load\+\_\+output\+\_\+file}}
+\item 
+Gtk\+::\+Spin\+Button $\ast$ \mbox{\hyperlink{class_gui_a2e7a53169067e789e16f935d7502217e}{page\+\_\+2\+\_\+spin\+\_\+button\+\_\+num\+\_\+threads}}
+\item 
+Gtk\+::\+Label $\ast$ \mbox{\hyperlink{class_gui_a436abe021c6e5b1f45548bdf07fb704f}{page\+\_\+3\+\_\+label\+\_\+time\+\_\+remaining\+\_\+dynamic}}
+\item 
+Gtk\+::\+Progress\+Bar $\ast$ \mbox{\hyperlink{class_gui_a1e8138e6ec4382e654671f9be4287d33}{page\+\_\+3\+\_\+progress\+\_\+bar\+\_\+progress}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_a19dce35ffc2180163ccb0c61afd24618}{page\+\_\+3\+\_\+button\+\_\+cancel}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_ae10fa222883fb24add5ab39fbb257fb4}{page\+\_\+4\+\_\+button\+\_\+set\+\_\+up\+\_\+new}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_a283dee34b3117d4969ce5ec825d9b814}{page\+\_\+4\+\_\+button\+\_\+quit}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_ac6b9c9bf7438b8c426d0e905aa55d633}{page\+\_\+4\+\_\+button\+\_\+open\+\_\+file\+\_\+location}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_a5751d7315a459747dba415a77050b83c}{page\+\_\+4\+\_\+button\+\_\+paraview}}
+\item 
+Gtk\+::\+Label $\ast$ \mbox{\hyperlink{class_gui_adfbae67b84e801cd8df83e5363b9eef6}{page\+\_\+4\+\_\+label\+\_\+time\+\_\+spent\+\_\+dynamic}}
+\item 
+Gtk\+::\+Label $\ast$ \mbox{\hyperlink{class_gui_a2c5be529c521df21a46674642926f7dc}{page\+\_\+4\+\_\+label\+\_\+output\+\_\+path}}
+\item 
+Gtk\+::\+Label $\ast$ \mbox{\hyperlink{class_gui_ad8e346c2c0241c799284bcbaf20c4198}{page\+\_\+4\+\_\+label\+\_\+paraview\+\_\+error}}
+\item 
+Gtk\+::\+Label $\ast$ \mbox{\hyperlink{class_gui_a51e40063de8ed67a2b35bf25bded46dc}{page\+\_\+5\+\_\+label\+\_\+error\+\_\+message}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_a52d35c24dbbe7419b221283e7daf3a1b}{page\+\_\+5\+\_\+button\+\_\+return\+\_\+main\+\_\+menu}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_a87053e91ca56f41a24c4c91e4439bd91}{page\+\_\+5\+\_\+button\+\_\+quit}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_a50a04253ce351aaa341ed0936f22230e}{page\+\_\+6\+\_\+button\+\_\+back}}
+\item 
+Gtk\+::\+Button $\ast$ \mbox{\hyperlink{class_gui_a36875ce0d0819a651c5a6a9ec690b0fe}{page\+\_\+7\+\_\+button\+\_\+back}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Defines the G\+UI class 
+
+Definition at line 37 of file gui.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_gui_aec6dd1cb98006ef4a11e775c535be8d5}\label{class_gui_aec6dd1cb98006ef4a11e775c535be8d5}} 
+\index{Gui@{Gui}!Gui@{Gui}}
+\index{Gui@{Gui}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{Gui()}{Gui()}}
+{\footnotesize\ttfamily Gui\+::\+Gui (\begin{DoxyParamCaption}\item[{Base\+Object\+Type $\ast$}]{cobject,  }\item[{const Glib\+::\+Ref\+Ptr$<$ Gtk\+::\+Builder $>$ \&}]{ref\+Builder }\end{DoxyParamCaption})}
+
+Constructor of the G\+UI class Gets references to specific UI elements and sets up signal handlers for buttons 
+
+Definition at line 15 of file gui.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui_aec6dd1cb98006ef4a11e775c535be8d5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_a4fd8485d226f9b8a2ac2d81d7f0f3598}\label{class_gui_a4fd8485d226f9b8a2ac2d81d7f0f3598}} 
+\index{Gui@{Gui}!````~Gui@{$\sim$Gui}}
+\index{````~Gui@{$\sim$Gui}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{$\sim$Gui()}{~Gui()}}
+{\footnotesize\ttfamily Gui\+::$\sim$\+Gui (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Destructor of the G\+UI class Deletes all pointers to the UI elements 
+
+Definition at line 127 of file gui.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_gui_a87f6e39dc28bc04b2a431551339fe4ce}\label{class_gui_a87f6e39dc28bc04b2a431551339fe4ce}} 
+\index{Gui@{Gui}!notify\_page\_change\_to\_result@{notify\_page\_change\_to\_result}}
+\index{notify\_page\_change\_to\_result@{notify\_page\_change\_to\_result}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{notify\_page\_change\_to\_result()}{notify\_page\_change\_to\_result()}}
+{\footnotesize\ttfamily void Gui\+::notify\+\_\+page\+\_\+change\+\_\+to\+\_\+result (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Called by the animation worker thread. Invokes a signal 
+
+Definition at line 638 of file gui.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui_a87f6e39dc28bc04b2a431551339fe4ce_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_acf26f6708a3070162aded0104d801ebd}\label{class_gui_acf26f6708a3070162aded0104d801ebd}} 
+\index{Gui@{Gui}!notify\_progress\_bar\_update@{notify\_progress\_bar\_update}}
+\index{notify\_progress\_bar\_update@{notify\_progress\_bar\_update}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{notify\_progress\_bar\_update()}{notify\_progress\_bar\_update()}}
+{\footnotesize\ttfamily void Gui\+::notify\+\_\+progress\+\_\+bar\+\_\+update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Called by the animation worker thread. Invokes a signal 
+
+Definition at line 621 of file gui.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui_acf26f6708a3070162aded0104d801ebd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_a5ce4bc4f1f654919abe6da5db63bd5b4}\label{class_gui_a5ce4bc4f1f654919abe6da5db63bd5b4}} 
+\index{Gui@{Gui}!on\_close\_application@{on\_close\_application}}
+\index{on\_close\_application@{on\_close\_application}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{on\_close\_application()}{on\_close\_application()}}
+{\footnotesize\ttfamily void Gui\+::on\+\_\+close\+\_\+application (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Page independent method to close the application 
+
+Definition at line 191 of file gui.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{class_gui_a5ce4bc4f1f654919abe6da5db63bd5b4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_ae25fb8cd2f3f6bcbf4c23fe140f3952a}\label{class_gui_ae25fb8cd2f3f6bcbf4c23fe140f3952a}} 
+\index{Gui@{Gui}!on\_notification\_from\_animation\_worker\_thread@{on\_notification\_from\_animation\_worker\_thread}}
+\index{on\_notification\_from\_animation\_worker\_thread@{on\_notification\_from\_animation\_worker\_thread}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{on\_notification\_from\_animation\_worker\_thread()}{on\_notification\_from\_animation\_worker\_thread()}}
+{\footnotesize\ttfamily void Gui\+::on\+\_\+notification\+\_\+from\+\_\+animation\+\_\+worker\+\_\+thread (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Invoked after a signal from the dispatcher progresssbar was omitted. This method is connected to this signal. 
+
+Definition at line 614 of file gui.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui_ae25fb8cd2f3f6bcbf4c23fe140f3952a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{class_gui_ae25fb8cd2f3f6bcbf4c23fe140f3952a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_a465cd294221a87f6643d9183606fe012}\label{class_gui_a465cd294221a87f6643d9183606fe012}} 
+\index{Gui@{Gui}!on\_notification\_to\_change\_to\_result\_page@{on\_notification\_to\_change\_to\_result\_page}}
+\index{on\_notification\_to\_change\_to\_result\_page@{on\_notification\_to\_change\_to\_result\_page}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{on\_notification\_to\_change\_to\_result\_page()}{on\_notification\_to\_change\_to\_result\_page()}}
+{\footnotesize\ttfamily void Gui\+::on\+\_\+notification\+\_\+to\+\_\+change\+\_\+to\+\_\+result\+\_\+page (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Invoked after a sigal from the dispatcher show result page was omitted. This method is connected to this signal. 
+
+Definition at line 629 of file gui.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{class_gui_a465cd294221a87f6643d9183606fe012_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_af7bc57309d69fb54d8067b4121b23395}\label{class_gui_af7bc57309d69fb54d8067b4121b23395}} 
+\index{Gui@{Gui}!on\_notification\_to\_set\_result\_duration@{on\_notification\_to\_set\_result\_duration}}
+\index{on\_notification\_to\_set\_result\_duration@{on\_notification\_to\_set\_result\_duration}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{on\_notification\_to\_set\_result\_duration()}{on\_notification\_to\_set\_result\_duration()}}
+{\footnotesize\ttfamily void Gui\+::on\+\_\+notification\+\_\+to\+\_\+set\+\_\+result\+\_\+duration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 700 of file gui.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=303pt]{class_gui_af7bc57309d69fb54d8067b4121b23395_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_a401e4defba41bd7ec6e01fd3d05593cd}\label{class_gui_a401e4defba41bd7ec6e01fd3d05593cd}} 
+\index{Gui@{Gui}!on\_page\_0\_about\_clicked@{on\_page\_0\_about\_clicked}}
+\index{on\_page\_0\_about\_clicked@{on\_page\_0\_about\_clicked}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{on\_page\_0\_about\_clicked()}{on\_page\_0\_about\_clicked()}}
+{\footnotesize\ttfamily void Gui\+::on\+\_\+page\+\_\+0\+\_\+about\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Button is located on first page method is called when the user selects the button to view the \char`\"{}about\char`\"{} page 
+
+Definition at line 255 of file gui.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{class_gui_a401e4defba41bd7ec6e01fd3d05593cd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_a25acccc5bc4a66a8cef614bf5ad5050e}\label{class_gui_a25acccc5bc4a66a8cef614bf5ad5050e}} 
+\index{Gui@{Gui}!on\_page\_0\_how\_to\_clicked@{on\_page\_0\_how\_to\_clicked}}
+\index{on\_page\_0\_how\_to\_clicked@{on\_page\_0\_how\_to\_clicked}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{on\_page\_0\_how\_to\_clicked()}{on\_page\_0\_how\_to\_clicked()}}
+{\footnotesize\ttfamily void Gui\+::on\+\_\+page\+\_\+0\+\_\+how\+\_\+to\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Button is located on first page Method is called when the user selects the button to view the \char`\"{}how-\/to\char`\"{} page 
+
+Definition at line 247 of file gui.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=289pt]{class_gui_a25acccc5bc4a66a8cef614bf5ad5050e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_ae637b42ffefc5295292fddb4020915a5}\label{class_gui_ae637b42ffefc5295292fddb4020915a5}} 
+\index{Gui@{Gui}!on\_page\_0\_load\_checkpoint\_clicked@{on\_page\_0\_load\_checkpoint\_clicked}}
+\index{on\_page\_0\_load\_checkpoint\_clicked@{on\_page\_0\_load\_checkpoint\_clicked}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{on\_page\_0\_load\_checkpoint\_clicked()}{on\_page\_0\_load\_checkpoint\_clicked()}}
+{\footnotesize\ttfamily void Gui\+::on\+\_\+page\+\_\+0\+\_\+load\+\_\+checkpoint\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Button is located on the first page Method is called when the user selects the option to load a checkpoint 
+
+Definition at line 239 of file gui.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=290pt]{class_gui_ae637b42ffefc5295292fddb4020915a5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_a99bd8e1d1028f5ecd3192c0cf98f2c81}\label{class_gui_a99bd8e1d1028f5ecd3192c0cf98f2c81}} 
+\index{Gui@{Gui}!on\_page\_0\_start\_new\_clicked@{on\_page\_0\_start\_new\_clicked}}
+\index{on\_page\_0\_start\_new\_clicked@{on\_page\_0\_start\_new\_clicked}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{on\_page\_0\_start\_new\_clicked()}{on\_page\_0\_start\_new\_clicked()}}
+{\footnotesize\ttfamily void Gui\+::on\+\_\+page\+\_\+0\+\_\+start\+\_\+new\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Button is located on the first page Method is called when the user chooses to start a new simulation 
+
+Definition at line 231 of file gui.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=291pt]{class_gui_a99bd8e1d1028f5ecd3192c0cf98f2c81_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_ae4a23ca88be4fa14e9fb7f87fa5361ca}\label{class_gui_ae4a23ca88be4fa14e9fb7f87fa5361ca}} 
+\index{Gui@{Gui}!on\_page\_1\_reveal\_result\_output@{on\_page\_1\_reveal\_result\_output}}
+\index{on\_page\_1\_reveal\_result\_output@{on\_page\_1\_reveal\_result\_output}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{on\_page\_1\_reveal\_result\_output()}{on\_page\_1\_reveal\_result\_output()}}
+{\footnotesize\ttfamily void Gui\+::on\+\_\+page\+\_\+1\+\_\+reveal\+\_\+result\+\_\+output (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Reveals the \textquotesingle{}number of checkpoints\textquotesingle{} entry option, if the output type \textquotesingle{}save as file\textquotesingle{} ist chosen 
+
+Definition at line 262 of file gui.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{class_gui_ae4a23ca88be4fa14e9fb7f87fa5361ca_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_a4289738c77733dcbdb0769be3624b1ec}\label{class_gui_a4289738c77733dcbdb0769be3624b1ec}} 
+\index{Gui@{Gui}!on\_page\_1\_reveal\_scenario\_input@{on\_page\_1\_reveal\_scenario\_input}}
+\index{on\_page\_1\_reveal\_scenario\_input@{on\_page\_1\_reveal\_scenario\_input}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{on\_page\_1\_reveal\_scenario\_input()}{on\_page\_1\_reveal\_scenario\_input()}}
+{\footnotesize\ttfamily void Gui\+::on\+\_\+page\+\_\+1\+\_\+reveal\+\_\+scenario\+\_\+input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Reveals the file chooser for scenario setup from files 
+
+Definition at line 269 of file gui.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{class_gui_a4289738c77733dcbdb0769be3624b1ec_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_ac1cd401b04bce22928845ab1c83b54e5}\label{class_gui_ac1cd401b04bce22928845ab1c83b54e5}} 
+\index{Gui@{Gui}!on\_page\_1\_submit\_button\_clicked@{on\_page\_1\_submit\_button\_clicked}}
+\index{on\_page\_1\_submit\_button\_clicked@{on\_page\_1\_submit\_button\_clicked}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{on\_page\_1\_submit\_button\_clicked()}{on\_page\_1\_submit\_button\_clicked()}}
+{\footnotesize\ttfamily void Gui\+::on\+\_\+page\+\_\+1\+\_\+submit\+\_\+button\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Called when the user inputs some data and wants to start a new simulation Method checks for valid input and if positive starts a new simulation 
+
+Definition at line 277 of file gui.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui_ac1cd401b04bce22928845ab1c83b54e5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=303pt]{class_gui_ac1cd401b04bce22928845ab1c83b54e5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_a768f9fba8d4861cfc6f8af6614498d06}\label{class_gui_a768f9fba8d4861cfc6f8af6614498d06}} 
+\index{Gui@{Gui}!on\_page\_2\_submit\_button\_clicked@{on\_page\_2\_submit\_button\_clicked}}
+\index{on\_page\_2\_submit\_button\_clicked@{on\_page\_2\_submit\_button\_clicked}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{on\_page\_2\_submit\_button\_clicked()}{on\_page\_2\_submit\_button\_clicked()}}
+{\footnotesize\ttfamily void Gui\+::on\+\_\+page\+\_\+2\+\_\+submit\+\_\+button\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Button is located on the third page Invoked when the user wants to load a checkpoint 
+
+Definition at line 407 of file gui.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui_a768f9fba8d4861cfc6f8af6614498d06_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=303pt]{class_gui_a768f9fba8d4861cfc6f8af6614498d06_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_a1a6d30c0de7f5a55822b7d5a318922a8}\label{class_gui_a1a6d30c0de7f5a55822b7d5a318922a8}} 
+\index{Gui@{Gui}!on\_page\_3\_button\_cancel\_clicked@{on\_page\_3\_button\_cancel\_clicked}}
+\index{on\_page\_3\_button\_cancel\_clicked@{on\_page\_3\_button\_cancel\_clicked}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{on\_page\_3\_button\_cancel\_clicked()}{on\_page\_3\_button\_cancel\_clicked()}}
+{\footnotesize\ttfamily void Gui\+::on\+\_\+page\+\_\+3\+\_\+button\+\_\+cancel\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Called when the user chooses to cancel the simulation 
+
+Definition at line 488 of file gui.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui_a1a6d30c0de7f5a55822b7d5a318922a8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{class_gui_a1a6d30c0de7f5a55822b7d5a318922a8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_abae61702b267f53557c3f1f44cbb84ce}\label{class_gui_abae61702b267f53557c3f1f44cbb84ce}} 
+\index{Gui@{Gui}!on\_page\_4\_open\_location\_button\_clicked@{on\_page\_4\_open\_location\_button\_clicked}}
+\index{on\_page\_4\_open\_location\_button\_clicked@{on\_page\_4\_open\_location\_button\_clicked}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{on\_page\_4\_open\_location\_button\_clicked()}{on\_page\_4\_open\_location\_button\_clicked()}}
+{\footnotesize\ttfamily void Gui\+::on\+\_\+page\+\_\+4\+\_\+open\+\_\+location\+\_\+button\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+After the simulation is finished, the user is able to view their output file directly in its directory. Invoked when button \textquotesingle{}open file location\textquotesingle{} is clicked. 
+
+Definition at line 647 of file gui.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{class_gui_abae61702b267f53557c3f1f44cbb84ce_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_ace91713e2f7f7c54e522bc5e25e1d62a}\label{class_gui_ace91713e2f7f7c54e522bc5e25e1d62a}} 
+\index{Gui@{Gui}!on\_page\_4\_open\_paraview\_button\_clicked@{on\_page\_4\_open\_paraview\_button\_clicked}}
+\index{on\_page\_4\_open\_paraview\_button\_clicked@{on\_page\_4\_open\_paraview\_button\_clicked}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{on\_page\_4\_open\_paraview\_button\_clicked()}{on\_page\_4\_open\_paraview\_button\_clicked()}}
+{\footnotesize\ttfamily void Gui\+::on\+\_\+page\+\_\+4\+\_\+open\+\_\+paraview\+\_\+button\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+After the simulation is finished the user is able to open paraview at the specified location Invoked when button \textquotesingle{}open paraview\textquotesingle{} 
+
+Definition at line 656 of file gui.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=315pt]{class_gui_ace91713e2f7f7c54e522bc5e25e1d62a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_a6f592ef45f62157f20e2ed28829683b6}\label{class_gui_a6f592ef45f62157f20e2ed28829683b6}} 
+\index{Gui@{Gui}!on\_return\_to\_main\_menu@{on\_return\_to\_main\_menu}}
+\index{on\_return\_to\_main\_menu@{on\_return\_to\_main\_menu}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{on\_return\_to\_main\_menu()}{on\_return\_to\_main\_menu()}}
+{\footnotesize\ttfamily void Gui\+::on\+\_\+return\+\_\+to\+\_\+main\+\_\+menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Page independent method to return to the main menu 
+
+Definition at line 198 of file gui.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui_a6f592ef45f62157f20e2ed28829683b6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_a83cdfcfe3485b2c28e2e5140bfae3989}\label{class_gui_a83cdfcfe3485b2c28e2e5140bfae3989}} 
+\index{Gui@{Gui}!page\_3\_animation\_worker@{page\_3\_animation\_worker}}
+\index{page\_3\_animation\_worker@{page\_3\_animation\_worker}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_3\_animation\_worker()}{page\_3\_animation\_worker()}}
+{\footnotesize\ttfamily void Gui\+::page\+\_\+3\+\_\+animation\+\_\+worker (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Called when starting the simulation in a detached thread. Method is used to animate the progressbar. 
+
+Definition at line 497 of file gui.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui_a83cdfcfe3485b2c28e2e5140bfae3989_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui_a83cdfcfe3485b2c28e2e5140bfae3989_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_a5ac5507e132f21e0819f8452a2dcf3dd}\label{class_gui_a5ac5507e132f21e0819f8452a2dcf3dd}} 
+\index{Gui@{Gui}!page\_3\_handler@{page\_3\_handler}}
+\index{page\_3\_handler@{page\_3\_handler}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_3\_handler()}{page\_3\_handler()}}
+{\footnotesize\ttfamily void Gui\+::page\+\_\+3\+\_\+handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Invoked when starting a simulation. Method will start the progressbar animation thread and detach it. 
+
+Definition at line 472 of file gui.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui_a5ac5507e132f21e0819f8452a2dcf3dd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui_a5ac5507e132f21e0819f8452a2dcf3dd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_ae8faae704a0adc67177a9cd61bbacfb3}\label{class_gui_ae8faae704a0adc67177a9cd61bbacfb3}} 
+\index{Gui@{Gui}!show\_error\_page@{show\_error\_page}}
+\index{show\_error\_page@{show\_error\_page}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{show\_error\_page()}{show\_error\_page()}}
+{\footnotesize\ttfamily void Gui\+::show\+\_\+error\+\_\+page (\begin{DoxyParamCaption}\item[{std\+::string}]{error }\end{DoxyParamCaption})}
+
+Called by swe backend. Invoked to show the error page as soon as an error has occurred 
+\begin{DoxyParams}{Parameters}
+{\em error} & Contains the error message \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 713 of file gui.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui_ae8faae704a0adc67177a9cd61bbacfb3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui_ae8faae704a0adc67177a9cd61bbacfb3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_a14bcfe27a76487edb9346e23553f9e76}\label{class_gui_a14bcfe27a76487edb9346e23553f9e76}} 
+\index{Gui@{Gui}!update\_progress@{update\_progress}}
+\index{update\_progress@{update\_progress}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{update\_progress()}{update\_progress()}}
+{\footnotesize\ttfamily void Gui\+::update\+\_\+progress (\begin{DoxyParamCaption}\item[{float}]{\+\_\+progress,  }\item[{int}]{\+\_\+time\+\_\+remaining }\end{DoxyParamCaption})}
+
+Called by swe backend. Invoked to receive information about simulation status 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+progress} & Specifies how much progress already has been made \\
+\hline
+{\em \+\_\+time\+\_\+remaining} & Parameter specifies how long the simulation will probably still take in seconds. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 670 of file gui.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui_a14bcfe27a76487edb9346e23553f9e76_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_a2f75e1e51332b6f5b603c09685f265ef}\label{class_gui_a2f75e1e51332b6f5b603c09685f265ef}} 
+\index{Gui@{Gui}!update\_widgets@{update\_widgets}}
+\index{update\_widgets@{update\_widgets}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{update\_widgets()}{update\_widgets()}}
+{\footnotesize\ttfamily void Gui\+::update\+\_\+widgets (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Invoked after a signal from the dispatcher progressbar was omitted. Method is executed in main thread and will collect updated values for gui manipulation 
+
+Definition at line 596 of file gui.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui_a2f75e1e51332b6f5b603c09685f265ef_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_gui_adb717f499b83aabb84ac1bf68eaf6d72}\label{class_gui_adb717f499b83aabb84ac1bf68eaf6d72}} 
+\index{Gui@{Gui}!was\_canceled@{was\_canceled}}
+\index{was\_canceled@{was\_canceled}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{was\_canceled()}{was\_canceled()}}
+{\footnotesize\ttfamily bool Gui\+::was\+\_\+canceled (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_gui_a192e973ed536af837f9b4957b8732ed1}\label{class_gui_a192e973ed536af837f9b4957b8732ed1}} 
+\index{Gui@{Gui}!diff\_seconds@{diff\_seconds}}
+\index{diff\_seconds@{diff\_seconds}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{diff\_seconds}{diff\_seconds}}
+{\footnotesize\ttfamily int Gui\+::diff\+\_\+seconds\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 66 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a66f152e6bd0f389d1808a1127b7a4c1e}\label{class_gui_a66f152e6bd0f389d1808a1127b7a4c1e}} 
+\index{Gui@{Gui}!directory@{directory}}
+\index{directory@{directory}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{directory}{directory}}
+{\footnotesize\ttfamily std\+::string Gui\+::directory = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 43 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_afc19cf4f6e3ff387adada3c95d8bf5f0}\label{class_gui_afc19cf4f6e3ff387adada3c95d8bf5f0}} 
+\index{Gui@{Gui}!dispatcher\_progressbar\_update@{dispatcher\_progressbar\_update}}
+\index{dispatcher\_progressbar\_update@{dispatcher\_progressbar\_update}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{dispatcher\_progressbar\_update}{dispatcher\_progressbar\_update}}
+{\footnotesize\ttfamily Glib\+::\+Dispatcher Gui\+::dispatcher\+\_\+progressbar\+\_\+update\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 68 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a486e96374f78911599091c48eade5702}\label{class_gui_a486e96374f78911599091c48eade5702}} 
+\index{Gui@{Gui}!dispatcher\_set\_result\_duration@{dispatcher\_set\_result\_duration}}
+\index{dispatcher\_set\_result\_duration@{dispatcher\_set\_result\_duration}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{dispatcher\_set\_result\_duration}{dispatcher\_set\_result\_duration}}
+{\footnotesize\ttfamily Glib\+::\+Dispatcher Gui\+::dispatcher\+\_\+set\+\_\+result\+\_\+duration\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 70 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_ae611d67f36fd2304da4e7310c008fb36}\label{class_gui_ae611d67f36fd2304da4e7310c008fb36}} 
+\index{Gui@{Gui}!dispatcher\_show\_result\_page@{dispatcher\_show\_result\_page}}
+\index{dispatcher\_show\_result\_page@{dispatcher\_show\_result\_page}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{dispatcher\_show\_result\_page}{dispatcher\_show\_result\_page}}
+{\footnotesize\ttfamily Glib\+::\+Dispatcher Gui\+::dispatcher\+\_\+show\+\_\+result\+\_\+page\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 69 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_afc8d9877f24c4af4f17b45fc6ea4b339}\label{class_gui_afc8d9877f24c4af4f17b45fc6ea4b339}} 
+\index{Gui@{Gui}!filename@{filename}}
+\index{filename@{filename}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{filename}{filename}}
+{\footnotesize\ttfamily std\+::string Gui\+::filename = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 45 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a87fe8de9737f163d6b135a5634599353}\label{class_gui_a87fe8de9737f163d6b135a5634599353}} 
+\index{Gui@{Gui}!generate\_output@{generate\_output}}
+\index{generate\_output@{generate\_output}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{generate\_output}{generate\_output}}
+{\footnotesize\ttfamily bool Gui\+::generate\+\_\+output = true\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 53 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_aab149a452aa81734d3e5afacd7afc3a7}\label{class_gui_aab149a452aa81734d3e5afacd7afc3a7}} 
+\index{Gui@{Gui}!gui\_stack@{gui\_stack}}
+\index{gui\_stack@{gui\_stack}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{gui\_stack}{gui\_stack}}
+{\footnotesize\ttfamily Gtk\+::\+Stack$\ast$ Gui\+::gui\+\_\+stack\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 97 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a9d2b110430a7b8399e49875322b2e3ee}\label{class_gui_a9d2b110430a7b8399e49875322b2e3ee}} 
+\index{Gui@{Gui}!main\_thread\_fraction@{main\_thread\_fraction}}
+\index{main\_thread\_fraction@{main\_thread\_fraction}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{main\_thread\_fraction}{main\_thread\_fraction}}
+{\footnotesize\ttfamily double Gui\+::main\+\_\+thread\+\_\+fraction\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 82 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_afeed20b2b4a0ac7943e39fca3ef25370}\label{class_gui_afeed20b2b4a0ac7943e39fca3ef25370}} 
+\index{Gui@{Gui}!main\_thread\_message@{main\_thread\_message}}
+\index{main\_thread\_message@{main\_thread\_message}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{main\_thread\_message}{main\_thread\_message}}
+{\footnotesize\ttfamily std\+::string Gui\+::main\+\_\+thread\+\_\+message\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 83 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a67b0d1c70e972abc8c14aa7d22ac9719}\label{class_gui_a67b0d1c70e972abc8c14aa7d22ac9719}} 
+\index{Gui@{Gui}!main\_window@{main\_window}}
+\index{main\_window@{main\_window}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{main\_window}{main\_window}}
+{\footnotesize\ttfamily Gtk\+::\+Window$\ast$ Gui\+::main\+\_\+window\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 95 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a7f0b0aecaab14f75138b0a40a5930247}\label{class_gui_a7f0b0aecaab14f75138b0a40a5930247}} 
+\index{Gui@{Gui}!page\_0\_button\_about@{page\_0\_button\_about}}
+\index{page\_0\_button\_about@{page\_0\_button\_about}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_0\_button\_about}{page\_0\_button\_about}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+0\+\_\+button\+\_\+about\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 104 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a6e62314006570601caab91acb084b60a}\label{class_gui_a6e62314006570601caab91acb084b60a}} 
+\index{Gui@{Gui}!page\_0\_button\_how\_to@{page\_0\_button\_how\_to}}
+\index{page\_0\_button\_how\_to@{page\_0\_button\_how\_to}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_0\_button\_how\_to}{page\_0\_button\_how\_to}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+0\+\_\+button\+\_\+how\+\_\+to\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 103 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a53310f1cb886021d99a50110d0c6046f}\label{class_gui_a53310f1cb886021d99a50110d0c6046f}} 
+\index{Gui@{Gui}!page\_0\_button\_load\_checkpoint@{page\_0\_button\_load\_checkpoint}}
+\index{page\_0\_button\_load\_checkpoint@{page\_0\_button\_load\_checkpoint}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_0\_button\_load\_checkpoint}{page\_0\_button\_load\_checkpoint}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+0\+\_\+button\+\_\+load\+\_\+checkpoint\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 102 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a7c80db950d68dfd5575c50e1616fc40c}\label{class_gui_a7c80db950d68dfd5575c50e1616fc40c}} 
+\index{Gui@{Gui}!page\_0\_button\_quit@{page\_0\_button\_quit}}
+\index{page\_0\_button\_quit@{page\_0\_button\_quit}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_0\_button\_quit}{page\_0\_button\_quit}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+0\+\_\+button\+\_\+quit\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 105 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a64404f4b1933e26c463880b0a2243d5f}\label{class_gui_a64404f4b1933e26c463880b0a2243d5f}} 
+\index{Gui@{Gui}!page\_0\_button\_start\_new@{page\_0\_button\_start\_new}}
+\index{page\_0\_button\_start\_new@{page\_0\_button\_start\_new}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_0\_button\_start\_new}{page\_0\_button\_start\_new}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+0\+\_\+button\+\_\+start\+\_\+new\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 101 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a42f46ea52188dd4a06e641fd257dc10f}\label{class_gui_a42f46ea52188dd4a06e641fd257dc10f}} 
+\index{Gui@{Gui}!page\_1\_button\_back@{page\_1\_button\_back}}
+\index{page\_1\_button\_back@{page\_1\_button\_back}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_button\_back}{page\_1\_button\_back}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+1\+\_\+button\+\_\+back\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 126 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a386ce2dfa1358431a683cc08f42927e6}\label{class_gui_a386ce2dfa1358431a683cc08f42927e6}} 
+\index{Gui@{Gui}!page\_1\_button\_submit@{page\_1\_button\_submit}}
+\index{page\_1\_button\_submit@{page\_1\_button\_submit}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_button\_submit}{page\_1\_button\_submit}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+1\+\_\+button\+\_\+submit\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 125 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a62291c7ef516491b4ccc1b029661bff5}\label{class_gui_a62291c7ef516491b4ccc1b029661bff5}} 
+\index{Gui@{Gui}!page\_1\_combobox\_boundary@{page\_1\_combobox\_boundary}}
+\index{page\_1\_combobox\_boundary@{page\_1\_combobox\_boundary}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_combobox\_boundary}{page\_1\_combobox\_boundary}}
+{\footnotesize\ttfamily Gtk\+::\+Combo\+Box\+Text$\ast$ Gui\+::page\+\_\+1\+\_\+combobox\+\_\+boundary\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 115 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_af27a80d09558383b377604884c4904cb}\label{class_gui_af27a80d09558383b377604884c4904cb}} 
+\index{Gui@{Gui}!page\_1\_combobox\_output@{page\_1\_combobox\_output}}
+\index{page\_1\_combobox\_output@{page\_1\_combobox\_output}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_combobox\_output}{page\_1\_combobox\_output}}
+{\footnotesize\ttfamily Gtk\+::\+Combo\+Box\+Text$\ast$ Gui\+::page\+\_\+1\+\_\+combobox\+\_\+output\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 113 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_afa1e08a50cbd4dfc044cb0d92f85ec18}\label{class_gui_afa1e08a50cbd4dfc044cb0d92f85ec18}} 
+\index{Gui@{Gui}!page\_1\_combobox\_scenario@{page\_1\_combobox\_scenario}}
+\index{page\_1\_combobox\_scenario@{page\_1\_combobox\_scenario}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_combobox\_scenario}{page\_1\_combobox\_scenario}}
+{\footnotesize\ttfamily Gtk\+::\+Combo\+Box\+Text$\ast$ Gui\+::page\+\_\+1\+\_\+combobox\+\_\+scenario\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 116 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_ade509ca998bdc74412126d3a87555400}\label{class_gui_ade509ca998bdc74412126d3a87555400}} 
+\index{Gui@{Gui}!page\_1\_entry\_output\_file\_name@{page\_1\_entry\_output\_file\_name}}
+\index{page\_1\_entry\_output\_file\_name@{page\_1\_entry\_output\_file\_name}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_entry\_output\_file\_name}{page\_1\_entry\_output\_file\_name}}
+{\footnotesize\ttfamily Gtk\+::\+Entry$\ast$ Gui\+::page\+\_\+1\+\_\+entry\+\_\+output\+\_\+file\+\_\+name\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 122 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a3fe52e4ee338191a030bba0db19a326b}\label{class_gui_a3fe52e4ee338191a030bba0db19a326b}} 
+\index{Gui@{Gui}!page\_1\_file\_chooser\_bathymetry@{page\_1\_file\_chooser\_bathymetry}}
+\index{page\_1\_file\_chooser\_bathymetry@{page\_1\_file\_chooser\_bathymetry}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_file\_chooser\_bathymetry}{page\_1\_file\_chooser\_bathymetry}}
+{\footnotesize\ttfamily Gtk\+::\+File\+Chooser$\ast$ Gui\+::page\+\_\+1\+\_\+file\+\_\+chooser\+\_\+bathymetry\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 119 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a286ac8f339169cec8a3bb891b6368c49}\label{class_gui_a286ac8f339169cec8a3bb891b6368c49}} 
+\index{Gui@{Gui}!page\_1\_file\_chooser\_displacement@{page\_1\_file\_chooser\_displacement}}
+\index{page\_1\_file\_chooser\_displacement@{page\_1\_file\_chooser\_displacement}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_file\_chooser\_displacement}{page\_1\_file\_chooser\_displacement}}
+{\footnotesize\ttfamily Gtk\+::\+File\+Chooser$\ast$ Gui\+::page\+\_\+1\+\_\+file\+\_\+chooser\+\_\+displacement\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 120 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a4b15fe3e264086a20ade1b79c7532417}\label{class_gui_a4b15fe3e264086a20ade1b79c7532417}} 
+\index{Gui@{Gui}!page\_1\_file\_chooser\_output\_directory@{page\_1\_file\_chooser\_output\_directory}}
+\index{page\_1\_file\_chooser\_output\_directory@{page\_1\_file\_chooser\_output\_directory}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_file\_chooser\_output\_directory}{page\_1\_file\_chooser\_output\_directory}}
+{\footnotesize\ttfamily Gtk\+::\+File\+Chooser$\ast$ Gui\+::page\+\_\+1\+\_\+file\+\_\+chooser\+\_\+output\+\_\+directory\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 121 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_ada83d4bc3b7452489ba28a436b3744f7}\label{class_gui_ada83d4bc3b7452489ba28a436b3744f7}} 
+\index{Gui@{Gui}!page\_1\_label\_error@{page\_1\_label\_error}}
+\index{page\_1\_label\_error@{page\_1\_label\_error}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_label\_error}{page\_1\_label\_error}}
+{\footnotesize\ttfamily Gtk\+::\+Label$\ast$ Gui\+::page\+\_\+1\+\_\+label\+\_\+error\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 124 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_ad633ab9095b1b790818358b2f8a48fbd}\label{class_gui_ad633ab9095b1b790818358b2f8a48fbd}} 
+\index{Gui@{Gui}!page\_1\_revealer\_result\_output@{page\_1\_revealer\_result\_output}}
+\index{page\_1\_revealer\_result\_output@{page\_1\_revealer\_result\_output}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_revealer\_result\_output}{page\_1\_revealer\_result\_output}}
+{\footnotesize\ttfamily Gtk\+::\+Revealer$\ast$ Gui\+::page\+\_\+1\+\_\+revealer\+\_\+result\+\_\+output\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 118 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a6d63282fb2e651537b08ad9f97b4405b}\label{class_gui_a6d63282fb2e651537b08ad9f97b4405b}} 
+\index{Gui@{Gui}!page\_1\_revealer\_scenario\_input@{page\_1\_revealer\_scenario\_input}}
+\index{page\_1\_revealer\_scenario\_input@{page\_1\_revealer\_scenario\_input}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_revealer\_scenario\_input}{page\_1\_revealer\_scenario\_input}}
+{\footnotesize\ttfamily Gtk\+::\+Revealer$\ast$ Gui\+::page\+\_\+1\+\_\+revealer\+\_\+scenario\+\_\+input\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 117 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_afffa1e69ca9500638200e45fa854f2d1}\label{class_gui_afffa1e69ca9500638200e45fa854f2d1}} 
+\index{Gui@{Gui}!page\_1\_spin\_button\_coarseness\_factor@{page\_1\_spin\_button\_coarseness\_factor}}
+\index{page\_1\_spin\_button\_coarseness\_factor@{page\_1\_spin\_button\_coarseness\_factor}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_spin\_button\_coarseness\_factor}{page\_1\_spin\_button\_coarseness\_factor}}
+{\footnotesize\ttfamily Gtk\+::\+Spin\+Button$\ast$ Gui\+::page\+\_\+1\+\_\+spin\+\_\+button\+\_\+coarseness\+\_\+factor\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 114 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a6939b444eb24c0581520c7bf31824f82}\label{class_gui_a6939b444eb24c0581520c7bf31824f82}} 
+\index{Gui@{Gui}!page\_1\_spin\_button\_num\_threads@{page\_1\_spin\_button\_num\_threads}}
+\index{page\_1\_spin\_button\_num\_threads@{page\_1\_spin\_button\_num\_threads}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_spin\_button\_num\_threads}{page\_1\_spin\_button\_num\_threads}}
+{\footnotesize\ttfamily Gtk\+::\+Spin\+Button$\ast$ Gui\+::page\+\_\+1\+\_\+spin\+\_\+button\+\_\+num\+\_\+threads\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 112 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a93ad87ac367e6da6dd5d6159c3a5d14c}\label{class_gui_a93ad87ac367e6da6dd5d6159c3a5d14c}} 
+\index{Gui@{Gui}!page\_1\_spin\_button\_num\_time\_steps@{page\_1\_spin\_button\_num\_time\_steps}}
+\index{page\_1\_spin\_button\_num\_time\_steps@{page\_1\_spin\_button\_num\_time\_steps}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_spin\_button\_num\_time\_steps}{page\_1\_spin\_button\_num\_time\_steps}}
+{\footnotesize\ttfamily Gtk\+::\+Spin\+Button$\ast$ Gui\+::page\+\_\+1\+\_\+spin\+\_\+button\+\_\+num\+\_\+time\+\_\+steps\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 111 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_af4e54c332491356138220670d0cdd1b4}\label{class_gui_af4e54c332491356138220670d0cdd1b4}} 
+\index{Gui@{Gui}!page\_1\_spin\_button\_sim\_time@{page\_1\_spin\_button\_sim\_time}}
+\index{page\_1\_spin\_button\_sim\_time@{page\_1\_spin\_button\_sim\_time}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_spin\_button\_sim\_time}{page\_1\_spin\_button\_sim\_time}}
+{\footnotesize\ttfamily Gtk\+::\+Spin\+Button$\ast$ Gui\+::page\+\_\+1\+\_\+spin\+\_\+button\+\_\+sim\+\_\+time\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 110 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a0791266d1f93a56845ecaccf8b83f109}\label{class_gui_a0791266d1f93a56845ecaccf8b83f109}} 
+\index{Gui@{Gui}!page\_1\_spin\_button\_x\_dim@{page\_1\_spin\_button\_x\_dim}}
+\index{page\_1\_spin\_button\_x\_dim@{page\_1\_spin\_button\_x\_dim}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_spin\_button\_x\_dim}{page\_1\_spin\_button\_x\_dim}}
+{\footnotesize\ttfamily Gtk\+::\+Spin\+Button$\ast$ Gui\+::page\+\_\+1\+\_\+spin\+\_\+button\+\_\+x\+\_\+dim\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 108 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_ac6d9fc2abe9c7d46cf0465928e337af6}\label{class_gui_ac6d9fc2abe9c7d46cf0465928e337af6}} 
+\index{Gui@{Gui}!page\_1\_spin\_button\_y\_dim@{page\_1\_spin\_button\_y\_dim}}
+\index{page\_1\_spin\_button\_y\_dim@{page\_1\_spin\_button\_y\_dim}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_1\_spin\_button\_y\_dim}{page\_1\_spin\_button\_y\_dim}}
+{\footnotesize\ttfamily Gtk\+::\+Spin\+Button$\ast$ Gui\+::page\+\_\+1\+\_\+spin\+\_\+button\+\_\+y\+\_\+dim\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 109 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a6ece09679d2d69c062b2364b394a5e7e}\label{class_gui_a6ece09679d2d69c062b2364b394a5e7e}} 
+\index{Gui@{Gui}!page\_2\_button\_back@{page\_2\_button\_back}}
+\index{page\_2\_button\_back@{page\_2\_button\_back}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_2\_button\_back}{page\_2\_button\_back}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+2\+\_\+button\+\_\+back\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 132 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a58f2d93b5f5e3a679b73eaf9d5ed3da7}\label{class_gui_a58f2d93b5f5e3a679b73eaf9d5ed3da7}} 
+\index{Gui@{Gui}!page\_2\_button\_submit@{page\_2\_button\_submit}}
+\index{page\_2\_button\_submit@{page\_2\_button\_submit}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_2\_button\_submit}{page\_2\_button\_submit}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+2\+\_\+button\+\_\+submit\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 131 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a5cd715ddb6211b6a36c602d376c268f4}\label{class_gui_a5cd715ddb6211b6a36c602d376c268f4}} 
+\index{Gui@{Gui}!page\_2\_file\_chooser\_load\_checkpoint@{page\_2\_file\_chooser\_load\_checkpoint}}
+\index{page\_2\_file\_chooser\_load\_checkpoint@{page\_2\_file\_chooser\_load\_checkpoint}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_2\_file\_chooser\_load\_checkpoint}{page\_2\_file\_chooser\_load\_checkpoint}}
+{\footnotesize\ttfamily Gtk\+::\+File\+Chooser$\ast$ Gui\+::page\+\_\+2\+\_\+file\+\_\+chooser\+\_\+load\+\_\+checkpoint\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 129 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a2a7eb9feeaa6c260f43d50fe4cefa8fb}\label{class_gui_a2a7eb9feeaa6c260f43d50fe4cefa8fb}} 
+\index{Gui@{Gui}!page\_2\_file\_chooser\_load\_output\_file@{page\_2\_file\_chooser\_load\_output\_file}}
+\index{page\_2\_file\_chooser\_load\_output\_file@{page\_2\_file\_chooser\_load\_output\_file}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_2\_file\_chooser\_load\_output\_file}{page\_2\_file\_chooser\_load\_output\_file}}
+{\footnotesize\ttfamily Gtk\+::\+File\+Chooser$\ast$ Gui\+::page\+\_\+2\+\_\+file\+\_\+chooser\+\_\+load\+\_\+output\+\_\+file\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 133 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a0899cd022bf880b7313c38652544dee2}\label{class_gui_a0899cd022bf880b7313c38652544dee2}} 
+\index{Gui@{Gui}!page\_2\_label\_error@{page\_2\_label\_error}}
+\index{page\_2\_label\_error@{page\_2\_label\_error}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_2\_label\_error}{page\_2\_label\_error}}
+{\footnotesize\ttfamily Gtk\+::\+Label$\ast$ Gui\+::page\+\_\+2\+\_\+label\+\_\+error\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 130 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a2e7a53169067e789e16f935d7502217e}\label{class_gui_a2e7a53169067e789e16f935d7502217e}} 
+\index{Gui@{Gui}!page\_2\_spin\_button\_num\_threads@{page\_2\_spin\_button\_num\_threads}}
+\index{page\_2\_spin\_button\_num\_threads@{page\_2\_spin\_button\_num\_threads}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_2\_spin\_button\_num\_threads}{page\_2\_spin\_button\_num\_threads}}
+{\footnotesize\ttfamily Gtk\+::\+Spin\+Button$\ast$ Gui\+::page\+\_\+2\+\_\+spin\+\_\+button\+\_\+num\+\_\+threads\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 134 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a19dce35ffc2180163ccb0c61afd24618}\label{class_gui_a19dce35ffc2180163ccb0c61afd24618}} 
+\index{Gui@{Gui}!page\_3\_button\_cancel@{page\_3\_button\_cancel}}
+\index{page\_3\_button\_cancel@{page\_3\_button\_cancel}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_3\_button\_cancel}{page\_3\_button\_cancel}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+3\+\_\+button\+\_\+cancel\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 139 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a436abe021c6e5b1f45548bdf07fb704f}\label{class_gui_a436abe021c6e5b1f45548bdf07fb704f}} 
+\index{Gui@{Gui}!page\_3\_label\_time\_remaining\_dynamic@{page\_3\_label\_time\_remaining\_dynamic}}
+\index{page\_3\_label\_time\_remaining\_dynamic@{page\_3\_label\_time\_remaining\_dynamic}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_3\_label\_time\_remaining\_dynamic}{page\_3\_label\_time\_remaining\_dynamic}}
+{\footnotesize\ttfamily Gtk\+::\+Label$\ast$ Gui\+::page\+\_\+3\+\_\+label\+\_\+time\+\_\+remaining\+\_\+dynamic\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 137 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a1e8138e6ec4382e654671f9be4287d33}\label{class_gui_a1e8138e6ec4382e654671f9be4287d33}} 
+\index{Gui@{Gui}!page\_3\_progress\_bar\_progress@{page\_3\_progress\_bar\_progress}}
+\index{page\_3\_progress\_bar\_progress@{page\_3\_progress\_bar\_progress}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_3\_progress\_bar\_progress}{page\_3\_progress\_bar\_progress}}
+{\footnotesize\ttfamily Gtk\+::\+Progress\+Bar$\ast$ Gui\+::page\+\_\+3\+\_\+progress\+\_\+bar\+\_\+progress\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 138 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_ac6b9c9bf7438b8c426d0e905aa55d633}\label{class_gui_ac6b9c9bf7438b8c426d0e905aa55d633}} 
+\index{Gui@{Gui}!page\_4\_button\_open\_file\_location@{page\_4\_button\_open\_file\_location}}
+\index{page\_4\_button\_open\_file\_location@{page\_4\_button\_open\_file\_location}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_4\_button\_open\_file\_location}{page\_4\_button\_open\_file\_location}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+4\+\_\+button\+\_\+open\+\_\+file\+\_\+location\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 144 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a5751d7315a459747dba415a77050b83c}\label{class_gui_a5751d7315a459747dba415a77050b83c}} 
+\index{Gui@{Gui}!page\_4\_button\_paraview@{page\_4\_button\_paraview}}
+\index{page\_4\_button\_paraview@{page\_4\_button\_paraview}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_4\_button\_paraview}{page\_4\_button\_paraview}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+4\+\_\+button\+\_\+paraview\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 145 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a283dee34b3117d4969ce5ec825d9b814}\label{class_gui_a283dee34b3117d4969ce5ec825d9b814}} 
+\index{Gui@{Gui}!page\_4\_button\_quit@{page\_4\_button\_quit}}
+\index{page\_4\_button\_quit@{page\_4\_button\_quit}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_4\_button\_quit}{page\_4\_button\_quit}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+4\+\_\+button\+\_\+quit\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 143 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_ae10fa222883fb24add5ab39fbb257fb4}\label{class_gui_ae10fa222883fb24add5ab39fbb257fb4}} 
+\index{Gui@{Gui}!page\_4\_button\_set\_up\_new@{page\_4\_button\_set\_up\_new}}
+\index{page\_4\_button\_set\_up\_new@{page\_4\_button\_set\_up\_new}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_4\_button\_set\_up\_new}{page\_4\_button\_set\_up\_new}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+4\+\_\+button\+\_\+set\+\_\+up\+\_\+new\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 142 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a2c5be529c521df21a46674642926f7dc}\label{class_gui_a2c5be529c521df21a46674642926f7dc}} 
+\index{Gui@{Gui}!page\_4\_label\_output\_path@{page\_4\_label\_output\_path}}
+\index{page\_4\_label\_output\_path@{page\_4\_label\_output\_path}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_4\_label\_output\_path}{page\_4\_label\_output\_path}}
+{\footnotesize\ttfamily Gtk\+::\+Label$\ast$ Gui\+::page\+\_\+4\+\_\+label\+\_\+output\+\_\+path\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 147 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_ad8e346c2c0241c799284bcbaf20c4198}\label{class_gui_ad8e346c2c0241c799284bcbaf20c4198}} 
+\index{Gui@{Gui}!page\_4\_label\_paraview\_error@{page\_4\_label\_paraview\_error}}
+\index{page\_4\_label\_paraview\_error@{page\_4\_label\_paraview\_error}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_4\_label\_paraview\_error}{page\_4\_label\_paraview\_error}}
+{\footnotesize\ttfamily Gtk\+::\+Label$\ast$ Gui\+::page\+\_\+4\+\_\+label\+\_\+paraview\+\_\+error\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 148 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_adfbae67b84e801cd8df83e5363b9eef6}\label{class_gui_adfbae67b84e801cd8df83e5363b9eef6}} 
+\index{Gui@{Gui}!page\_4\_label\_time\_spent\_dynamic@{page\_4\_label\_time\_spent\_dynamic}}
+\index{page\_4\_label\_time\_spent\_dynamic@{page\_4\_label\_time\_spent\_dynamic}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_4\_label\_time\_spent\_dynamic}{page\_4\_label\_time\_spent\_dynamic}}
+{\footnotesize\ttfamily Gtk\+::\+Label$\ast$ Gui\+::page\+\_\+4\+\_\+label\+\_\+time\+\_\+spent\+\_\+dynamic\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 146 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a87053e91ca56f41a24c4c91e4439bd91}\label{class_gui_a87053e91ca56f41a24c4c91e4439bd91}} 
+\index{Gui@{Gui}!page\_5\_button\_quit@{page\_5\_button\_quit}}
+\index{page\_5\_button\_quit@{page\_5\_button\_quit}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_5\_button\_quit}{page\_5\_button\_quit}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+5\+\_\+button\+\_\+quit\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 153 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a52d35c24dbbe7419b221283e7daf3a1b}\label{class_gui_a52d35c24dbbe7419b221283e7daf3a1b}} 
+\index{Gui@{Gui}!page\_5\_button\_return\_main\_menu@{page\_5\_button\_return\_main\_menu}}
+\index{page\_5\_button\_return\_main\_menu@{page\_5\_button\_return\_main\_menu}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_5\_button\_return\_main\_menu}{page\_5\_button\_return\_main\_menu}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+5\+\_\+button\+\_\+return\+\_\+main\+\_\+menu\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 152 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a51e40063de8ed67a2b35bf25bded46dc}\label{class_gui_a51e40063de8ed67a2b35bf25bded46dc}} 
+\index{Gui@{Gui}!page\_5\_label\_error\_message@{page\_5\_label\_error\_message}}
+\index{page\_5\_label\_error\_message@{page\_5\_label\_error\_message}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_5\_label\_error\_message}{page\_5\_label\_error\_message}}
+{\footnotesize\ttfamily Gtk\+::\+Label$\ast$ Gui\+::page\+\_\+5\+\_\+label\+\_\+error\+\_\+message\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 151 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a50a04253ce351aaa341ed0936f22230e}\label{class_gui_a50a04253ce351aaa341ed0936f22230e}} 
+\index{Gui@{Gui}!page\_6\_button\_back@{page\_6\_button\_back}}
+\index{page\_6\_button\_back@{page\_6\_button\_back}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_6\_button\_back}{page\_6\_button\_back}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+6\+\_\+button\+\_\+back\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 156 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a36875ce0d0819a651c5a6a9ec690b0fe}\label{class_gui_a36875ce0d0819a651c5a6a9ec690b0fe}} 
+\index{Gui@{Gui}!page\_7\_button\_back@{page\_7\_button\_back}}
+\index{page\_7\_button\_back@{page\_7\_button\_back}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{page\_7\_button\_back}{page\_7\_button\_back}}
+{\footnotesize\ttfamily Gtk\+::\+Button$\ast$ Gui\+::page\+\_\+7\+\_\+button\+\_\+back\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 159 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_ab3596593a568d899f354f71c44ba5356}\label{class_gui_ab3596593a568d899f354f71c44ba5356}} 
+\index{Gui@{Gui}!progress@{progress}}
+\index{progress@{progress}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{progress}{progress}}
+{\footnotesize\ttfamily float Gui\+::progress = 0\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 57 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a7d33da7cacbc404dabbc69d92e4a04ce}\label{class_gui_a7d33da7cacbc404dabbc69d92e4a04ce}} 
+\index{Gui@{Gui}!progress\_bat\_mtx@{progress\_bat\_mtx}}
+\index{progress\_bat\_mtx@{progress\_bat\_mtx}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{progress\_bat\_mtx}{progress\_bat\_mtx}}
+{\footnotesize\ttfamily std\+::mutex Gui\+::progress\+\_\+bat\+\_\+mtx\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 72 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a005c3be1b872a8bd8751b9c41f5448a0}\label{class_gui_a005c3be1b872a8bd8751b9c41f5448a0}} 
+\index{Gui@{Gui}!result\_duration\_mtx@{result\_duration\_mtx}}
+\index{result\_duration\_mtx@{result\_duration\_mtx}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{result\_duration\_mtx}{result\_duration\_mtx}}
+{\footnotesize\ttfamily std\+::mutex Gui\+::result\+\_\+duration\+\_\+mtx\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 85 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a64a390321be463827d3e054fd5b9c4ef}\label{class_gui_a64a390321be463827d3e054fd5b9c4ef}} 
+\index{Gui@{Gui}!result\_duration\_string@{result\_duration\_string}}
+\index{result\_duration\_string@{result\_duration\_string}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{result\_duration\_string}{result\_duration\_string}}
+{\footnotesize\ttfamily std\+::string Gui\+::result\+\_\+duration\+\_\+string\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 86 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a8349a0ad98099c9518b2b951659bdbe4}\label{class_gui_a8349a0ad98099c9518b2b951659bdbe4}} 
+\index{Gui@{Gui}!scen@{scen}}
+\index{scen@{scen}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{scen}{scen}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classscenario}{scenario}}$\ast$ Gui\+::scen\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 90 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a1c4f367d75d65bcac04014eb99e65f38}\label{class_gui_a1c4f367d75d65bcac04014eb99e65f38}} 
+\index{Gui@{Gui}!scenario\_id@{scenario\_id}}
+\index{scenario\_id@{scenario\_id}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{scenario\_id}{scenario\_id}}
+{\footnotesize\ttfamily int Gui\+::scenario\+\_\+id = 0\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 49 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_ad5c628f41b5e923c2645c334139918f2}\label{class_gui_ad5c628f41b5e923c2645c334139918f2}} 
+\index{Gui@{Gui}!simulation\_fraction@{simulation\_fraction}}
+\index{simulation\_fraction@{simulation\_fraction}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{simulation\_fraction}{simulation\_fraction}}
+{\footnotesize\ttfamily double Gui\+::simulation\+\_\+fraction\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 79 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_abe324036c55710c2fc3f7acdcd824945}\label{class_gui_abe324036c55710c2fc3f7acdcd824945}} 
+\index{Gui@{Gui}!simulation\_time\_remaining@{simulation\_time\_remaining}}
+\index{simulation\_time\_remaining@{simulation\_time\_remaining}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{simulation\_time\_remaining}{simulation\_time\_remaining}}
+{\footnotesize\ttfamily int Gui\+::simulation\+\_\+time\+\_\+remaining\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 80 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a8729b78f8179aa88b32aa219153b587e}\label{class_gui_a8729b78f8179aa88b32aa219153b587e}} 
+\index{Gui@{Gui}!time\_end@{time\_end}}
+\index{time\_end@{time\_end}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{time\_end}{time\_end}}
+{\footnotesize\ttfamily time\+\_\+t Gui\+::time\+\_\+end\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 64 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a383dc0e3a27578344edc2b43bf0b2a7b}\label{class_gui_a383dc0e3a27578344edc2b43bf0b2a7b}} 
+\index{Gui@{Gui}!time\_remaining@{time\_remaining}}
+\index{time\_remaining@{time\_remaining}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{time\_remaining}{time\_remaining}}
+{\footnotesize\ttfamily int Gui\+::time\+\_\+remaining = 0\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 59 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a6f6b46ae34278fd0a74044af63d315a2}\label{class_gui_a6f6b46ae34278fd0a74044af63d315a2}} 
+\index{Gui@{Gui}!time\_start@{time\_start}}
+\index{time\_start@{time\_start}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{time\_start}{time\_start}}
+{\footnotesize\ttfamily time\+\_\+t Gui\+::time\+\_\+start\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 62 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a9ec8a91cc6b9ec66fbf103237d7036d4}\label{class_gui_a9ec8a91cc6b9ec66fbf103237d7036d4}} 
+\index{Gui@{Gui}!ui@{ui}}
+\index{ui@{ui}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Glib\+::\+Ref\+Ptr$<$Gtk\+::\+Builder$>$ Gui\+::ui\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 93 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_ac3073b1f26e15d59b4a3989bcaadad60}\label{class_gui_ac3073b1f26e15d59b4a3989bcaadad60}} 
+\index{Gui@{Gui}!uses\_walls@{uses\_walls}}
+\index{uses\_walls@{uses\_walls}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{uses\_walls}{uses\_walls}}
+{\footnotesize\ttfamily bool Gui\+::uses\+\_\+walls = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 51 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a53ad3ec550cae503d075f344e78f8311}\label{class_gui_a53ad3ec550cae503d075f344e78f8311}} 
+\index{Gui@{Gui}!worker\_actual\_fraction@{worker\_actual\_fraction}}
+\index{worker\_actual\_fraction@{worker\_actual\_fraction}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{worker\_actual\_fraction}{worker\_actual\_fraction}}
+{\footnotesize\ttfamily double Gui\+::worker\+\_\+actual\+\_\+fraction\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 76 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a21fe326f7e9064469ce691f5136b2d84}\label{class_gui_a21fe326f7e9064469ce691f5136b2d84}} 
+\index{Gui@{Gui}!worker\_message@{worker\_message}}
+\index{worker\_message@{worker\_message}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{worker\_message}{worker\_message}}
+{\footnotesize\ttfamily std\+::string Gui\+::worker\+\_\+message\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 74 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_a71f85c86c2c157f7aa4d2b97ccee44a7}\label{class_gui_a71f85c86c2c157f7aa4d2b97ccee44a7}} 
+\index{Gui@{Gui}!worker\_target\_fraction@{worker\_target\_fraction}}
+\index{worker\_target\_fraction@{worker\_target\_fraction}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{worker\_target\_fraction}{worker\_target\_fraction}}
+{\footnotesize\ttfamily double Gui\+::worker\+\_\+target\+\_\+fraction\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 75 of file gui.\+h.
+
+\mbox{\Hypertarget{class_gui_aa1d6950bb0c6fbc010a840d6dfae4395}\label{class_gui_aa1d6950bb0c6fbc010a840d6dfae4395}} 
+\index{Gui@{Gui}!worker\_time\_remaining@{worker\_time\_remaining}}
+\index{worker\_time\_remaining@{worker\_time\_remaining}!Gui@{Gui}}
+\doxysubsubsection{\texorpdfstring{worker\_time\_remaining}{worker\_time\_remaining}}
+{\footnotesize\ttfamily int Gui\+::worker\+\_\+time\+\_\+remaining\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 77 of file gui.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{gui_8h}{gui.\+h}}\item 
+\mbox{\hyperlink{gui_8cpp}{gui.\+cpp}}\end{DoxyCompactItemize}

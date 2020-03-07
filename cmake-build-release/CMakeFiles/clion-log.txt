@@ -1,0 +1,18 @@
+/opt/clion-2019.3.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/jherrmann/Documents/Tsunamisimulation/swe-gui
+-- The CXX compiler identification is GNU 9.2.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.6.3") 
+-- Checking for module 'netcdf-cxx4'
+--   Found netcdf-cxx4, version 4.3.1
+-- Checking for module 'gtkmm-3.0'
+--   Found gtkmm-3.0, version 3.24.2
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release

@@ -1,0 +1,106 @@
+\hypertarget{structoutput__options}{}\doxysection{output\+\_\+options Struct Reference}
+\label{structoutput__options}\index{output\_options@{output\_options}}
+
+
+{\ttfamily \#include $<$simulation.\+h$>$}
+
+
+
+Collaboration diagram for output\+\_\+options\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=235pt]{structoutput__options__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const bool \mbox{\hyperlink{structoutput__options_ab07312735dc8f762164191e2dfb3330f}{create\+\_\+output}}
+\item 
+const std\+::string \mbox{\hyperlink{structoutput__options_a1d4499ffcdd0360a29d026f11dd240db}{output\+\_\+name}}
+\item 
+const std\+::string \mbox{\hyperlink{structoutput__options_a52d340330e4792eab09e6c46c70450be}{checkpoint\+\_\+name}}
+\item 
+const std\+::size\+\_\+t \mbox{\hyperlink{structoutput__options_a00f4cf8ae251eabdd84f25c002ada3f3}{max\+\_\+num\+\_\+timesteps}}
+\item 
+const float \mbox{\hyperlink{structoutput__options_a7da2bc1899d33432c5eaceb48fdd9776}{coarse\+\_\+factor}}
+\item 
+\mbox{\hyperlink{class_gui}{Gui}} \& \mbox{\hyperlink{structoutput__options_a15e85587b450742cad9744e18ae3a0a9}{gui}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Options regarding the creation of output 
+
+Definition at line 21 of file simulation.\+h.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{structoutput__options_a52d340330e4792eab09e6c46c70450be}\label{structoutput__options_a52d340330e4792eab09e6c46c70450be}} 
+\index{output\_options@{output\_options}!checkpoint\_name@{checkpoint\_name}}
+\index{checkpoint\_name@{checkpoint\_name}!output\_options@{output\_options}}
+\doxysubsubsection{\texorpdfstring{checkpoint\_name}{checkpoint\_name}}
+{\footnotesize\ttfamily const std\+::string output\+\_\+options\+::checkpoint\+\_\+name}
+
+Name of the checkpoint file 
+
+Definition at line 29 of file simulation.\+h.
+
+\mbox{\Hypertarget{structoutput__options_a7da2bc1899d33432c5eaceb48fdd9776}\label{structoutput__options_a7da2bc1899d33432c5eaceb48fdd9776}} 
+\index{output\_options@{output\_options}!coarse\_factor@{coarse\_factor}}
+\index{coarse\_factor@{coarse\_factor}!output\_options@{output\_options}}
+\doxysubsubsection{\texorpdfstring{coarse\_factor}{coarse\_factor}}
+{\footnotesize\ttfamily const float output\+\_\+options\+::coarse\+\_\+factor}
+
+Factor by which to reduce the output grid size. Must be $>$= 1. 
+
+Definition at line 35 of file simulation.\+h.
+
+\mbox{\Hypertarget{structoutput__options_ab07312735dc8f762164191e2dfb3330f}\label{structoutput__options_ab07312735dc8f762164191e2dfb3330f}} 
+\index{output\_options@{output\_options}!create\_output@{create\_output}}
+\index{create\_output@{create\_output}!output\_options@{output\_options}}
+\doxysubsubsection{\texorpdfstring{create\_output}{create\_output}}
+{\footnotesize\ttfamily const bool output\+\_\+options\+::create\+\_\+output}
+
+Whether output should be created 
+
+Definition at line 23 of file simulation.\+h.
+
+\mbox{\Hypertarget{structoutput__options_a15e85587b450742cad9744e18ae3a0a9}\label{structoutput__options_a15e85587b450742cad9744e18ae3a0a9}} 
+\index{output\_options@{output\_options}!gui@{gui}}
+\index{gui@{gui}!output\_options@{output\_options}}
+\doxysubsubsection{\texorpdfstring{gui}{gui}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_gui}{Gui}}\& output\+\_\+options\+::gui}
+
+G\+UI reference for pushing updates 
+
+Definition at line 38 of file simulation.\+h.
+
+\mbox{\Hypertarget{structoutput__options_a00f4cf8ae251eabdd84f25c002ada3f3}\label{structoutput__options_a00f4cf8ae251eabdd84f25c002ada3f3}} 
+\index{output\_options@{output\_options}!max\_num\_timesteps@{max\_num\_timesteps}}
+\index{max\_num\_timesteps@{max\_num\_timesteps}!output\_options@{output\_options}}
+\doxysubsubsection{\texorpdfstring{max\_num\_timesteps}{max\_num\_timesteps}}
+{\footnotesize\ttfamily const std\+::size\+\_\+t output\+\_\+options\+::max\+\_\+num\+\_\+timesteps}
+
+Maximum amount of timesteps in output file (0 = infinite) 
+
+Definition at line 32 of file simulation.\+h.
+
+\mbox{\Hypertarget{structoutput__options_a1d4499ffcdd0360a29d026f11dd240db}\label{structoutput__options_a1d4499ffcdd0360a29d026f11dd240db}} 
+\index{output\_options@{output\_options}!output\_name@{output\_name}}
+\index{output\_name@{output\_name}!output\_options@{output\_options}}
+\doxysubsubsection{\texorpdfstring{output\_name}{output\_name}}
+{\footnotesize\ttfamily const std\+::string output\+\_\+options\+::output\+\_\+name}
+
+Name of the output file 
+
+Definition at line 26 of file simulation.\+h.
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{simulation_8h}{simulation.\+h}}\end{DoxyCompactItemize}

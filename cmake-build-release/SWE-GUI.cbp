@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SWE-GUI"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="swe">
+				<Option output="/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/swe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gtkmm-3.0"/>
+					<Add directory="/usr/lib/gtkmm-3.0/include"/>
+					<Add directory="/usr/include/atkmm-1.6"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/glib-2.0/include"/>
+					<Add directory="/usr/lib/libffi-3.2.1/include"/>
+					<Add directory="/usr/include/glibmm-2.4"/>
+					<Add directory="/usr/lib/glibmm-2.4/include"/>
+					<Add directory="/usr/include/sigc++-2.0"/>
+					<Add directory="/usr/lib/sigc++-2.0/include"/>
+					<Add directory="/usr/include/giomm-2.4"/>
+					<Add directory="/usr/lib/giomm-2.4/include"/>
+					<Add directory="/usr/include/libmount"/>
+					<Add directory="/usr/include/blkid"/>
+					<Add directory="/usr/include/pangomm-1.4"/>
+					<Add directory="/usr/lib/pangomm-1.4/include"/>
+					<Add directory="/usr/include/cairomm-1.0"/>
+					<Add directory="/usr/lib/cairomm-1.0/include"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/gtk-3.0"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/at-spi2-atk/2.0"/>
+					<Add directory="/usr/include/at-spi-2.0"/>
+					<Add directory="/usr/include/dbus-1.0"/>
+					<Add directory="/usr/lib/dbus-1.0/include"/>
+					<Add directory="/usr/include/gtk-3.0/unix-print"/>
+					<Add directory="/usr/include/gdkmm-3.0"/>
+					<Add directory="/usr/lib/gdkmm-3.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 swe"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="swe/fast">
+				<Option output="/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/swe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gtkmm-3.0"/>
+					<Add directory="/usr/lib/gtkmm-3.0/include"/>
+					<Add directory="/usr/include/atkmm-1.6"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/glib-2.0/include"/>
+					<Add directory="/usr/lib/libffi-3.2.1/include"/>
+					<Add directory="/usr/include/glibmm-2.4"/>
+					<Add directory="/usr/lib/glibmm-2.4/include"/>
+					<Add directory="/usr/include/sigc++-2.0"/>
+					<Add directory="/usr/lib/sigc++-2.0/include"/>
+					<Add directory="/usr/include/giomm-2.4"/>
+					<Add directory="/usr/lib/giomm-2.4/include"/>
+					<Add directory="/usr/include/libmount"/>
+					<Add directory="/usr/include/blkid"/>
+					<Add directory="/usr/include/pangomm-1.4"/>
+					<Add directory="/usr/lib/pangomm-1.4/include"/>
+					<Add directory="/usr/include/cairomm-1.0"/>
+					<Add directory="/usr/lib/cairomm-1.0/include"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/gtk-3.0"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/at-spi2-atk/2.0"/>
+					<Add directory="/usr/include/at-spi-2.0"/>
+					<Add directory="/usr/include/dbus-1.0"/>
+					<Add directory="/usr/lib/dbus-1.0/include"/>
+					<Add directory="/usr/include/gtk-3.0/unix-print"/>
+					<Add directory="/usr/include/gdkmm-3.0"/>
+					<Add directory="/usr/lib/gdkmm-3.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 swe/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jherrmann/Documents/Tsunamisimulation/swe-gui/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jherrmann/Documents/Tsunamisimulation/swe-gui/src/gui.cpp">
+			<Option target="swe"/>
+		</Unit>
+		<Unit filename="/home/jherrmann/Documents/Tsunamisimulation/swe-gui/src/gui.h">
+			<Option target="swe"/>
+		</Unit>
+		<Unit filename="/home/jherrmann/Documents/Tsunamisimulation/swe-gui/src/main.cpp">
+			<Option target="swe"/>
+		</Unit>
+		<Unit filename="/home/jherrmann/Documents/Tsunamisimulation/swe-gui/src/scenario.cpp">
+			<Option target="swe"/>
+		</Unit>
+		<Unit filename="/home/jherrmann/Documents/Tsunamisimulation/swe-gui/src/scenario.h">
+			<Option target="swe"/>
+		</Unit>
+		<Unit filename="/home/jherrmann/Documents/Tsunamisimulation/swe-gui/src/simulation.cpp">
+			<Option target="swe"/>
+		</Unit>
+		<Unit filename="/home/jherrmann/Documents/Tsunamisimulation/swe-gui/src/simulation.h">
+			<Option target="swe"/>
+		</Unit>
+		<Unit filename="/home/jherrmann/Documents/Tsunamisimulation/swe-gui/src/solver.h">
+			<Option target="swe"/>
+		</Unit>
+		<Unit filename="/home/jherrmann/Documents/Tsunamisimulation/swe-gui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
